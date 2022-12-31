@@ -17,25 +17,25 @@ html {
 }
 
 .img1 {
-	background-image: url(https://gimyosun.github.io/mypage/img/note1.png);
+	background-image: url("https://gimyosun.github.io/mypage/img/note1.png");
 	background-size: cover;
 	background-position: center;
 }
 
 .img2 {
-	background-image: url(https://gimyosun.github.io/mypage/img/note2.png);
+	background-image: url("https://gimyosun.github.io/mypage/img/note2.png");
 	background-size: cover;
 	background-position: center;
 }
 
 .img3 {
-	background-image: url(https://gimyosun.github.io/mypage/img/note3.png);
+	background-image: url("https://gimyosun.github.io/mypage/img/note3.png");
 	background-size: cover;
 	background-position: center;
 }
 
 .img4 {
-	background-image: url(https://gimyosun.github.io/mypage/img/note4.png);
+	background-image: url("https://gimyosun.github.io/mypage/img/note4.png");
 	background-size: cover;
 	background-position: center;
 }
