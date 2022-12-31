@@ -5,59 +5,60 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>2023 버킷리스트</title>
+	<title>2023 To do list</title>
 	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
 		* {
-			font-family: 'Hahmlet', serif;
+			font-family: 'Nanum Gothic', sans-serif;
 		}
+
 		.title {
 			color: white;
 			background-color: tomato;
-			font-size: 24px;
+			font-size: 28px;
 			padding: 4px 14px;
-			border-radius: 8px;
+			border: 3px solid black;
+			border-radius: 4px;
 		}
 
 		.bg {
 			width: 360px;
-			background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+			background-image: url("/img/grid.jpg");
+			background-size: cover;
 		}
 
-		.mgs {
-			font-weight: bold;
-		}
-
-		.bucket {
+		.to_do_list {
 			width: 160px;
-			height: 160px;
-		}
-
-		.img1 {
-			background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
-			background-size: cover;
-			background-position: center;
-		}
-
-		.img2 {
-			background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
-			background-size: cover;
-			background-position: center;
+			height: 168px;
 		}
 	</style>
-	<link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+	<link rel="stylesheet" type="text/css" href="/to_do_list.css">
 </head>
 
-<body class="bg-t3 center">
-	<h1 class="title-t4">2023 신년계획</h1>
-	<p class="msg">올해는 다 이루자!</p>
-	<div class="row flex-row wrap">
-		<div class="bucket img1-t2 center">나만의 웹서비스 만들기</div>
-		<div class="bucket img2 center">집 이사하기</div>
-		<div class="bucket img2 center">새로운 취미 배우기</div>
-		<div class="bucket img1-t4 center">건강한 음식을 먹기</div>
-		<div class="bucket img1 center">주 4회 운동하기</div>
-		<div class="bucket img2-t5 center">제2외국어 공부하기</div>
+<body class="bg center">
+	<h1 class="title">2023 TO DO LIST</h1>
+	<p class="msg">재밌게 배우고 성장하는 2023년이 되기를 ❤️‍🔥</p>
+	<div class="row flex-row wrap" style="margin-top: -10px;">
+		<div class="to_do_list img1 center">
+			<p style="font-size: 24px; margin: 10px 0 0 0;">📚</p>독서하기<br>10권이상!!
+		</div>
+		<div class="to_do_list img2 center">
+			<p style="font-size: 24px; margin: 10px 0 0 0;">&nbsp;&nbsp;&nbsp;🏠</p>&nbsp;&nbsp;&nbsp;집 꾸미고<br>&nbsp;&nbsp;&nbsp;집들이 시작
+		</div>
+		<div class="to_do_list img3 center" style="margin-top: 10px;">
+			<p style="font-size: 24px; margin: -10px 0 0 0;">&nbsp;&nbsp;㊫</p>
+			&nbsp;&nbsp;&nbsp;제2외국어<br>&nbsp;&nbsp;&nbsp;공부하기
+		</div>
+		<div class="to_do_list img4 center" style="margin-top: 10px;">
+			<p style="font-size: 24px; margin: -10px 0 0 0;">📹</p>브이로그 찍기
+		</div>
+		<div class="to_do_list img1 center" style="margin-top: 10px;">
+			<p style="font-size: 32px; margin: 0 0 -4px 0;">⌨️</p>웹개발<br>공부하기
+		</div>
+		<div class="to_do_list img2 center" style="margin-top: 10px;">
+			<p style="font-size: 24px; margin-bottom: 0;">&nbsp;&nbsp;📊</p>&nbsp;&nbsp;&nbsp;SQL<br>&nbsp;&nbsp;&nbsp;공부하기
+		</div>
 	</div>
 
 </body>
